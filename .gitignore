@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# Vector database persistence directory
+# chroma_db/
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Streamlit secrets & local config
+.streamlit/secrets.toml
+
+# Temporary uploads
+uploads/
+
+# OS specific files
+.DS_Store
+Thumbs.db
